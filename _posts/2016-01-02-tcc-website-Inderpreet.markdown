@@ -3,7 +3,7 @@ layout: post
 title:  "Inderpreet Singh - TCC Website presentation"
 date:   2016-01-02 10:30:00 +0530
 author: "Mandeep Singh"
-categories: presentation seminars
+categories: presentation
 ---
 
 
