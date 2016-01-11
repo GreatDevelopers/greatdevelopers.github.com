@@ -56,9 +56,8 @@ Performance, no database, fast.
 **Jekyll**: Static site generator with blog aware (we can make blogs). Made in Ruby.
 It has yml files.
 
-Loop example:
-`{% for post in site.posts %}`
-It's like a template.
+Read more about posts:
+http://jekyllrb.com/docs/posts/
 
 We don't have to put template on the server. Jekyll converts the markdown and some template to HTML, CSS, JS.
 
