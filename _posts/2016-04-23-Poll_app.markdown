@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Poll app and Basics of Neural Networks"
-date:   2016-04-13 10:30:00 +0530
+date:   2016-04-23 10:30:00 +0530
 author: "Pritika Malhotra"
 categories: presentation
 ---
