@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Poll app and Basics of Neural Networks"
+date:   2016-04-13 10:30:00 +0530
+author: "Pritika Malhotra"
+categories: presentation
+---
+Django app: Poll app
+Amritpal Singh
+
+According to him it is a bit difficult to make it in first attempt as one doesn't understand all steps in one go. One starts understanding as one progresses. Actually, one hastily reads the content and forget to read carefully which makes it understandable in successive attempts.
+Django is a python framework. It works on MVC(Model View Controller).
+
+Models are in models.py
+Views are in views.py
+Controller is admin.py(verification needed for the same).
+
+He started with the code and Sir suggested to first simplify things and explain the entire flow of the app.
+When one jumps to code before explaining the architecture and overall flow, it scares everyone and may lead to undesirable impression. So it was suggested to him to prepare it well.
+
+He also explained a mysterious problem given by his teacher which was not clear to him as well as his teacher.
+It was a python program based on Neural Networks. According to the explanation, It was a predictor system to suggest the career options(Medical, Non-Medical etc.) to students based on their marks in certain subjects in 10th.
+The algorithm used was K-algorithm.
+
+Q-What is K-algorithm?
+A-I think he was talking about K-NN(K-Nearest Neighbors) algorithm.
+Read more:http://www.statsoft.com/textbook/k-nearest-neighbors 
+
+Q-What is neural network?
+A-Neural neworks are typically organized in layers. Layers are made up of a number of interconnected 'nodes' which contain an 'activation function'. Patterns are presented to the network via the 'input layer', which communicates to one or more 'hidden layers' where the actual processing is done via a system of weighted 'connections'. The hidden layers then link to an 'output layer' where the answer is output as shown in the graphic below. 
+Read more:http://pages.cs.wisc.edu/~bolo/shipyard/neural/local.html
+
+Sir explained the concept of neural network and tried to tell us the input and probable output of the project.
