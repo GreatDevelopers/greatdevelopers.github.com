@@ -13,7 +13,9 @@ According to him it is a bit difficult to make it in first attempt as one doesn'
 Django is a python framework. It works on MVC(Model View Controller).
 
 Models are in models.py
+
 Views are in views.py
+
 Controller is admin.py(verification needed for the same).
 
 He started with the code and Sir suggested to first simplify things and explain the entire flow of the app.
