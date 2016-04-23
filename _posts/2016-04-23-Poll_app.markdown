@@ -6,6 +6,7 @@ author: "Pritika Malhotra"
 categories: presentation
 ---
 Django app: Poll app
+
 Amritpal Singh
 
 According to him it is a bit difficult to make it in first attempt as one doesn't understand all steps in one go. One starts understanding as one progresses. Actually, one hastily reads the content and forget to read carefully which makes it understandable in successive attempts.
