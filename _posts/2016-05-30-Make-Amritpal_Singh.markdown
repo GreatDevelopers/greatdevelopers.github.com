@@ -1,9 +1,10 @@
-“Make”
-======
-
-By Amritpal Singh
-
-Sun May 29 11:00 IST 2016
+---                                                                     
+layout: post                                                            
+title:  "Make"                                    
+date:   2016-05-30 11:00 IST                                       
+author: "Amritpal Singh"                                              
+categories: presentation                                                
+---
 
 ### Why do we need make?
 
