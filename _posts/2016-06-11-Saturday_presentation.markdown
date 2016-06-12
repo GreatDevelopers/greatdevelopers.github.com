@@ -1,9 +1,9 @@
-#layout 	      title 	               date 	                   categories
-#post      Saturday Seminars     2016-06-11 22:00:00 -0700            presentation
+layout 	      title 	               date 	                   categories
+post      Saturday Seminars     2016-06-11 22:00:00 -0700            presentation
 
 
 
-###Open Street Map (Davinder kaur)
+#Open Street Map (Davinder kaur)
 
 #History of Map.The organisations provide information which a normal user cannot change.
 #Steve made OSM freely available.
