@@ -1,6 +1,11 @@
-layout 	      title 	               date 	                   categories
-post      Saturday Seminars     2016-06-11 22:00:00 -0700            presentation
-
+---
+layout: post
+title:  "Saturday Seminars"
+date:   2016-06-11 8:00:00 +0530
+author: "Amisha Budhiraja"
+categories: presentation
+---
+﻿Date-11.06.2016
 
 
 #Open Street Map (Davinder kaur)
