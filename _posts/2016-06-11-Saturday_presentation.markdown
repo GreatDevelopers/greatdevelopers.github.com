@@ -8,7 +8,7 @@ categories: presentation
 ﻿Date-11.06.2016
 
 
-#Open Street Map (Davinder kaur)
+**Open Street Map (Davinder kaur)**
 
 History of Map.The organisations provide information which a normal user cannot change.
 
@@ -29,9 +29,9 @@ Really helped in tracking location during disasters which is not possible with o
 Q. How will one can map an unreachable location? Like :- an island or a are between mountains. Because there will be no cell signal no digital means of communication.
 
 Ans. ?
+--------------
 
-
-#Markdown page (Deepti)
+**Markdown page (Deepti)**
 
 Push the code in github of Markdown page.
 
@@ -62,9 +62,9 @@ Q. Who controls these versions.
 
 Ans.
 
+-----------------
 
-
-#Certificate Generation System (Amisha)
+**Certificate Generation System (Amisha)**
 
 CSV
 
@@ -96,8 +96,9 @@ Q. Did she made changes to install.sh file?
 
 $ locate .odt | grep PC_name | more is a useful command. Try this.
 
+-----------------------------
 
-#LaTeX (Manpreet)
+**LaTeX (Manpreet)**
 
 LaTeX provide structure, no need to edit content again and again
 
@@ -121,7 +122,9 @@ Are there different packages for LaTeX for different OS? That is texlive is only
 
 What is typesetting?
 
-#ARCE (Gagandeep)
+----
+
+**ARCE (Gagandeep)**
 
 Analysis of reinforced concrete elements software used for testing concrete elements.
 
@@ -131,7 +134,9 @@ Git manage the code history  .Github provide hosting service to your Git reposit
 
 Arce check capacity and capability of concrete elements. 
 
-#Introduction to HTML (Navdeep)
+----
+
+**Introduction to HTML (Navdeep)**
 
 Different tags are there like head, img, link etc.
 
@@ -153,7 +158,9 @@ Q. What are HTML frames?
 
 Ans.
 
-Web Server and CGI (Mandeep Kaur)
+---------
+
+**Web Server and CGI (Mandeep Kaur)**
 
 Q. What is apache and localhost?
 
@@ -167,9 +174,9 @@ Ans. g++ is a compiler, a program that will take your C++ source code and compil
 
 Q. Is server needed to open html file in browser?
 
+------------------
 
-
-#Yourls (Jagjeet)
+**Yourls (Jagjeet)**
 
 Your own URL
 
@@ -179,9 +186,9 @@ Put yourls in html folder.
 
 Go through the config.php file for changes.
 
+----------------
 
-
-#XML (Tamandeep Khamba)
+**XML (Tamandeep Khamba)**
 
 It is extensible markup language.
 
@@ -203,8 +210,9 @@ When to use XML and when to use database?
 
 Ans. For simple and small scale data use xml and for complex and large scale data prefer database.
 
+------------
 
-#3D to 2D conversion (Amritpal)
+**3D to 2D conversion (Amritpal)**
 
 FreeCAD software is used
 
@@ -226,9 +234,9 @@ Add annotations to drawings.
 
 Try drafter?
 
+--------------
 
-
-#PHP (Ramanjot Kaur)
+**PHP (Ramanjot Kaur)**
 
 It is a server side language.
 
