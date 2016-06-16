@@ -29,6 +29,7 @@ Really helped in tracking location during disasters which is not possible with o
 Q. How will one can map an unreachable location? Like :- an island or a are between mountains. Because there will be no cell signal no digital means of communication.
 
 Ans. ?
+
 --------------
 
 **Markdown page (Deepti)**
@@ -57,7 +58,7 @@ Ans. No difference
 
 Q. Who controls these versions.
 
-3Ans.
+Ans.
 . Difference between markup and markdown?
 
 Ans.
