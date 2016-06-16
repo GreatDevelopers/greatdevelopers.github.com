@@ -5,7 +5,7 @@ date:   2016-06-07 8:00:00 +0530
 author: "Amisha Budhiraja"
 categories: presentations
 ---
-﻿Date-11.06.2016
+﻿Date-07.06.2016
 
 **Database Management System(Deepti)**
 
