@@ -1,5 +1,13 @@
+---
+layout: post
+title:  "Tuesday Seminars"
+date:   2016-06-07 8:00:00 +0530
+author: "Amisha Budhiraja"
+categories: presentations
+---
+﻿Date-11.06.2016
 
-#Database Management System(Deepti)
+**Database Management System(Deepti)**
 
 Difference between file system and hierarchical based system?
 
@@ -11,8 +19,9 @@ Why we use commit and rollback?
 
 Why on issuing rollback the recent command is not roll back?
 
+----
 
-#Version Control System(Amisha)
+**Version Control System(Amisha)**
 
 What is -a flag in commit command?
 
@@ -20,7 +29,9 @@ Difference between Git and Github?
 
 Practical Implementation of Merge Conflict?
 
-#Math Piper(Gagandeep)
+----
+
+**Math Piper(Gagandeep)**
 
 Is mathpiper a library or Program?
 
@@ -38,7 +49,9 @@ What is the basic advantage of Math piper over other softwares like Weboctave et
 
 What is Histogram and its difference from BarGraph?
 
-#CGI(Jagjeet Singh)
+---
+
+**CGI(Jagjeet Singh)**
 
 In experimental we need to give extention .out for displaying at web browser.
 
@@ -48,7 +61,9 @@ Difference between GET and POST methods with practical example?
 
 What is the need to find length of string?
 
-#Commands on console(Tamandeep Khamba)
+-----
+
+**Commands on console(Tamandeep Khamba)**
 
 What is difference between pwd, pwd -P and pwd -L ?
 
@@ -60,7 +75,9 @@ What is difference between . and .. ?
 
 Difference between user,group and others?
 
-#Open-Scad(Honey Deol)
+---
+
+**Open-Scad(Honey Deol)**
 
 What is GNU?
 
@@ -70,8 +87,9 @@ How to modify the file that when we open that file it directly shows figure of c
 
 How to add net in basket in your basketball court file?
 
+-----
 
-#Scala Language( Harpreet)
+**Scala Language( Harpreet)**
 
 Scala is extension of java
 
@@ -83,14 +101,17 @@ Make a program in Scala and explore about it more.
 
 Why the name of class and file is same in Scala?
 
+---
 
-#Wordpress website(Sumandeep Kaur)
+**Wordpress website(Sumandeep Kaur)**
 
 Try to install wordpress on your computer and make website over there.
 
  What is the difference between a Website and Blog?
 
-#Applications(Jugraj Singh)
+---
+
+**Applications(Jugraj Singh)**
 
 Different Website and mobile applications : Electron, Xamarin, Qt, XOJO, Codename
 
