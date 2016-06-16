@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Coding Convention"
+title:  "Coding Conventions"
 date:   2016-06-09 11:32:00 +0530
 author: "Amisha Budhiraja"
 categories: presentation
