@@ -5,7 +5,7 @@ date:   2016-06-11 8:00:00 +0530
 author: "Amisha Budhiraja"
 categories: presentation
 ---
-﻿Date-11.06.2016
+Date-11.06.2016
 
 
 
@@ -32,7 +32,7 @@ Q. How will one can map an unreachable location? Like :- an island or a are betw
 
 Ans. ?
 
-<<<<<<< HEAD
+
 
 
 --------------
@@ -108,7 +108,7 @@ Q. Did she made changes to install.sh file?
 
 $ locate .odt | grep PC_name | more is a useful command. Try this.
 
-<<<<<<< HEAD
+
 
 
 -----------------------------
@@ -196,7 +196,7 @@ Ans. g++ is a compiler, a program that will take your C++ source code and compil
 
 Q. Is server needed to open html file in browser?
 
-<<<<<<< HEAD
+
 
 
 
