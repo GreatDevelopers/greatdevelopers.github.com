@@ -1,12 +1,10 @@
-
 ---
 layout: post
-title: "Octave by Amarjeet and Manpreet"
-date:   2016-06-23 05:13:00 +0530
+title:  "GNU Debugger"
+date:   2016-06-29 11:32:00 +0530
 author: "Amisha Budhiraja"
 categories: presentation
 ---
-
 
 Date-29.06.2016
 
