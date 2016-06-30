@@ -1,0 +1,90 @@
+---
+layout: post
+title:  "PageRank"
+date:   2016-06-25 8:00:00 +0530
+author: "Tamandeep Singh"
+categories: presentation
+---
+
+
+
+##PageRank and how a search engine works
+By Govind sharma :       
+    
+Query formed of keywords written in the request.   
+Response are the web pages.   
+Google access only 5% of the whole web content available on the internet.
+
+**Stupid way:** Brute force. This means that for every keyword in the query, the search engine will go to each page and struggle through the entire page to see if the keyword is found on that page. This sounds really uncomplicated. And it works fine if the number of pages is limited to some earlier multiples of a hundred. But apply the same approach on the World Wide Web and you'll suffer at the hands of WWW's unfathomable size and the limitations of hardware at your exposure.  
+
+   
+**Wise way:** Hashing. Hashing may sound super geeky and convoluted (which I'll say it is for the purposes of impressing the reader) but it's really not. Remember when we are in a classroom and the teachers takes the attendance? What does the teacher use to reference each student? A roll number. What is this thing called? Hashing.      
+
+###Hashing
+Hashing is a simple function uses key and return a value. In case of a search engine key is a Query and return the result in form of search result.
+
+Relevance (Importance) is the occurrence of a keyword on web pages.
+
+Web page consist of keywords. We make a list of number of keywords on a single page.
+“Stop words” words like is,the etc that comes often. They are treated differently as they are not what user wants as result.
+
+The query is divided into different parts and we cancel out the stop words and search out the most important words. 
+If a query have same relevance on two pages then we decide the results by pagerank.
+
+
+
+Concept of Random surfer.
+cases: 
+Jump
+Follow links
+Jump is that a user can directly jump to the website when user type the keyword like for youtube redirected to the youtube.com.
+
+Follow links is that a user follow the link from the result to the website.
+
+He showed a graph of web pages. And tried to find the pagerank of page A, which is decided by how many random servers land on the page A. Which is in return decided by the number of pages linking to it.      
+
+
+
+
+**Where To Start calculating Pagerank?**
+Each page given a probability of 1/N where N is the total number of pages.
+Then applying formula of pagerank to all iteratively until it reach stability.
+Many researches are done on this purpose to find how to start giving a pagerank to the pages so that with less iterations we can reach stability. 
+
+####Derivation
+PR(A): PageRank of the page A.     
+N: Total number of pages in the system.    
+n(A): Number of links going out from page A to other pages on the web.     
+P(e): Probability of happening of event e. 
+
+      
+**Let's get started then:**       
+PR(A) = How popular page A is.     
+= How likely it is that the random surfer will land on this page.       
+= P(Random surfer lands on page A).     
+= P(Random surfer jumps randomly from somewhere to page A OR Random surfer follows any of the incoming links from other pages to A).    
+= P(Random surfer jumps randomly from somewhere to page A) + P(Random surfer follows any of the incoming links from other pages to A).     (1)     
+Now, P(Random surfer jumps randomly from somewhere to page A)  can be calculated by dividing the probability of a jump (d) by the total number of contenders for after the jump (N). So this is equal to d/N.      
+P(Random surfer follows any of the incoming links from other pages to A) can be found using the following concept:      
+Assume that from the entire set of pages, [P1, P2, P3, ....., Pn] is the list of pages with links to A. Now the probability of reaching A after following links is the sum of the probability of following any one of these n links.       
+So this is equal to: P(being on P1 and clicking on the link to A) + ﻿﻿P(being on P2 and clicking on the link to A) + ..... + P(being on Pn and clicking on the link to A).     
+Converting this into a nice simple summation equation we get:      
+P(Random surfer follows any of the incoming links from other pages to A) = Summation(being on Pi and clicking on the link to A), where i goes from 1 to n.       
+The probability of being on page Pi is nothing but PR(Pi). And if Pi has 10 links going out from it then only that link will matter that comes to A. So we'll divide PR(Pi) by n(P) which is 10 in this case.       
+Finally this probability of the random surfing choosing to follow links is to be multiplied by (1-d) which is the probability of choosing this whole option in the first place.       
+Substitute all of this in equation (1):        
+PR(A) = d/N + (1-d) * Summation(  PR(Pi) / n(Pi)  ) where i goes from 1 to n.     
+This formula is applied for every page in the system. An iterative method is used. Basically in the beginning, every page is assigned an equal PR of 1/N. Then this formula is applied to each page until the value of PR of all of the pages stops to change much. The final stable is PR is the actual PR of every page.      
+
+###Spiders
+It is a crawler program written by google to crawl the web for new and updated content and index them.
+
+     
+**Q1. From where to start the pagerank?**       
+Ans: Start from anywhere. If it is connected to the web the whole graph of pages could be traverse.
+
+**Q2. Can  Spiders only index text or they can index image also?**     
+Ans: Yes they use image processing to index images.
+
+**Q3. What is PageRank?**     
+Ans: Generally pagerank signifies popularity. Relevance is not same as Pageranks.
