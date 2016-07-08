@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Libdxfrw_library"
-date:   2016-07-09 8:00:00 +0530
+date:   2016-07-07 8:00:00 +0530
 author: "Gagandeep kaur"
 categories: presentation
 ---
-﻿Date-09.07.2016
+
 #libdxfrw library:- c++ library (read/write dxf files)
 
 **It is used to make :-**
