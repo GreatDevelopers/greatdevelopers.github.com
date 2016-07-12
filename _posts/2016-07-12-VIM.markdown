@@ -1,0 +1,88 @@
+---
+layout: post
+title:  "Amritpal Singh - VIM"
+date:   2016-07-05 
+author: "Deepti Sharma"
+categories: presentation
+---
+
+VIM:Text editor
+===============================
+
+**Why vim?**
+- Availability
+- Fast & Efficient
+- Compatible with every thing
+- Cool
+
+**Modes:**
+- commandline mode
+- insert mode
+- last line mode
+- Append mode
+- Change mode
+- Replace mode
+
+**Installation:**
+    
+$sudo apt-get install vim
+
+**Opening a file:**
+
+$vim filename
+
+**Command line modes:**
+
+*Basic commands:*
+- i: insert
+- a: append
+- x: character delete
+- dd: line delete
+- dw: word delete
+- [no.]dd: delete lines after the current line to [no.]
+- r: Replace a character
+- s: delete one character and then insert
+- o: go to insert mode in next line
+- v: visual mode
+- ctrl+v:  visual block mode
+- u: undo
+        
+**For Searching:**
+        
+ / 
+ n - next word
+
+**Last line mode commands:**
+- :w -save file but not exit
+- :wq - save file and exit
+- :x - same as :wq
+- :q! - exit but not save the file
+- :[no] - move cursor to the [no] line
+- :w - newfile with content
+- :r - read the given file
+- :set nu - display number
+- :set rnu - display relative number
+- :set nu!
+- :help
+        
+**Yank, cut and paste**
+-  y - copy
+-  x - cut
+-  p - paste
+
+**Some more Commands:**
+- :% - apply command to all content  
+- :%s/old/new/gc - replace  
+- :set paste
+- :! = bash command
+- :w !sudo tee % 
+       
+**Differt tabs opening in one vim:**
+- :tabedit 
+- :Te
+- gt
+        
+**Splitting window:**
+- :vsplit- vertical split
+- :split- horizontal split 
+- Ctrl+w + arrows - Move to another windows 
