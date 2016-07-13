@@ -1,6 +1,11 @@
-Layout | Title | Date | Author | Categories
------- | ----- | ---- | ------ | ----------
-post | Version Control System | 2016-07-04 11:45:00 | Deepti Sharma | presentation
+---
+layout: post
+title:  "Amisha and Gagan - Version Control"
+date:   2016-07-04 11:45:00 +0530
+author: "Deepti Sharma"
+categories: presentation
+---
+
 
 **Version Control System (By Amisha Budhiraja and Gagandeep)**
 
