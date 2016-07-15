@@ -11,7 +11,9 @@ categories: presentation
 
 Version control system help a software team manage changes to source code over time.
 There are two types of Version Control System:
+
 - Centralized Version Control System. Eg: Perforce, CVS (Concurrent Version Control System)
+
 - Distributed Version Control System. Eg: Git, Bazaar 
 
 **Q1. What is CVS, SVN?**
@@ -26,9 +28,13 @@ There are various control systems like Bitbucket, Gitlab etc.
 **Making new local repository**
 
 *Some of the commands are:*
+
 - Mkdir test
+
 - cd test
+
 - git init
+
 - touch new.txt
 
 And so on ..
@@ -51,12 +57,17 @@ git stash command is used when we had added a file but hadn’t commit it then w
 **Q3. How to git stash a particular file?**
 
 - git log tells about the recent commits.
+
 - git revert is used for undo changes after push command.
+
 - git reset : If you do changes locally and didn’t push yet and you apply reset it will undo all the changes and didn’t show any changes on git hub, repo remains same.
+
 -  git branch commands show all branches.
 
 **There are 2 modes:**
+
 - **Hard:** It removes the commitment entry from the index and actual commit stage.
+
 - **Soft:** It removes only the actual commitment
 
 
