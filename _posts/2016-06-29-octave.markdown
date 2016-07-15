@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GNU Debugger"
+title:  "Octave Presentation"
 date:   2016-06-29 11:32:00 +0530
 author: "Amisha Budhiraja"
 categories: presentation
