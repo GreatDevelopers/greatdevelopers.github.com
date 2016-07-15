@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Apache_vs_Nginx"
+date:   2016-06-29 11:32:00 +0530
+author: "Amisha Budhiraja"
+categories: presentation
+---
+
 **Apache vs Nginx (by Jugraj Singh)**
 
 These are open source Web Servers.
