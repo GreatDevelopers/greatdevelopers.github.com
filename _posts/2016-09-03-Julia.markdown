@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Julia language"
+date:   2016-09-03 04:00:00 +0530
+author: "Amisha and Gagandeep"
+categories: presentation
+---
+
+**Julia by Arshpreet Singh** 
+
+Q. Is C a open source language?
+
+Ans. Yes
+
+Q. How fast is C?
+
+Ans. C is language performs average on each algorithms.
+
+Q. What is general programming language?
+
+General programming laguage means it is used for writing softwares like for making servers, apps etc.  
+
+**Java is general programming language**
+
+Java can be used in embedded systems, data analysis.
+
+Python is much slower than Java. 
+
+**Multiple Dispatch**: different code is automatically chosen based on the types of the all arguments supplied to a function.
+
+Scripting language can not use all he threads simaltaneously.
+
+**GIL(Global Interpreted Lock)**
+
+It is amechanism used in Computer language interpreters to synchronise the execution of threads so that only one native thread can execut at a time.
+RAM can not be collaborated with CPU
+
+Now, time to install Julia 
+
+$sudo apt-get install julia
+
+Difference between generic function and normal function?
+
+We can't write mobile apps in julia, yet. It is used for data science.
+
+Python release 300 to 350 packages daily whereas node release 1000 packages daily.
+
+We tried to make program of fibonacci in  julia as well as python 
+
+Command to check execution time of function in Julia is
+>>@elapsed f(25)
+
+On next presentation he will discuss more on multiple dispatch i.e difference between the time taken to download the movie normally and through mltiple dispatch.
