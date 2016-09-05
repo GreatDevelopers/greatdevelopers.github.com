@@ -25,6 +25,19 @@ General programming laguage means it is used for writing softwares like for maki
 Java can be used in embedded systems, data analysis.
 
 Python is much slower than Java. 
+```
+import time 
+a = time.time()
+n = input("select : ")
+def f(n):
+	if n==0:
+		return 0
+	if n==1:
+		return 1
+	return f(n-1)+f(n-2)
+print "f(",n,") is", f(n)
+print "time of execution is : ", time.time()-a
+```
 
 **Multiple Dispatch**: Different code is automatically chosen based on the types of the all arguments supplied to a function.
 
@@ -33,11 +46,14 @@ Scripting language can not use all he threads simaltaneously.
 **GIL (Global Interpreted Lock)**
 
 It is amechanism used in Computer language interpreters to synchronise the execution of threads so that only one native thread can execut at a time.
+
 RAM can not be collaborated with CPU.
 
 Now, time to install Julia. 
 
-\$sudo apt-get install julia
+```
+$sudo apt-get install julia
+```
 
 Difference between generic function and normal function?
 
@@ -49,6 +65,8 @@ We tried to make program of fibonacci in  julia as well as in python.
 
 Command to check execution time of function in Julia is
 
-\>>@elapsed f(25)
+```
+@elapsed f(25)
+```
 
 On next presentation he will discuss more on multiple dispatch i.e difference between the time taken to download the movie normally and through mltiple dispatch.
