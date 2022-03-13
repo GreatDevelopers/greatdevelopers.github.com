@@ -79,10 +79,6 @@ unanswerd
 
 ```bash
 git clone https://github.com/frappe/bench /home/sdc/.bench --depth 1 --branch master
-bench init /home/sdc/frappe-bench --frappe-path https://github.com/frappe/frappe --frappe-branch version-13 --python python3
-bench get-app ERPNext https://github.com/frappe/erpnext --branch version-13
-bench get-app https://github.com/Software-Developemnt-Centre/chat --branch main
-bench get-app https://github.com/GreatDevelopers/Notice-gneEdu --branch master
 git status
 cat .git/config 
 git fetch
