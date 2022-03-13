@@ -4,7 +4,7 @@
 
 ## Course Description
 
-This Git and GitHub course is hands-on, “learning by doing” course.
+This Git and GitHub course is hands-on, “learning by doing” course, encouraging you to explore and solve problem yourself.
 
 You will learn to effectively collaborate and still keep track of who did what and having full control on the content / code.
 
@@ -28,36 +28,37 @@ No matter if you're a content writer (solo or collaborating), writing technical 
 2. Version Control System, What is VCS?, Local, Centralized, Distributed VCS
 3. Installation of Git
 4. Command Line Basics
-  1. Change, Create File and Directory,
-  1. List Items, 
-Remove File and Directory, 
-Copy and Move Directory
-5. Introduction to Git
-Three Stage Architecture,
-How Git Differs from Other Version Control Systems
+    1. Change, Create File and Directory,
+    1. List Items, 
+    1. Remove File and Directory, 
+    1. Copy and Move Directory
+5. Introduction
+    1. Introduction to Git
+    1. Three Stage Architecture,
+    1. How Git Differs from Other Version Control Systems
 6. Git Basics
-Initializing a Git Repository, 
-Adding files and committing to repository, 
-Repositories history and status
+    1. Initializing a Git Repository, 
+    1. Adding files and committing to repository, 
+    1. Repositories history and status
 7. Branching
-What is branching and why do we need branching?, 
-Creating and switching between branches,
-Branch logging and deleting a branch.
+    1. What is branching and why do we need branching?, 
+    1. Creating and switching between branches,
+    1. Branch logging and deleting a branch.
 8. Merging
-Basic Merging and Recursive Merging,
-Merge Conflicts, 
-Resolving Conflicts
+    1. Basic Merging and Recursive Merging,
+    1. Merge Conflicts, 
+    1. Resolving Conflicts
 9. Rebasing
-What is rebasing and how is it different from merging?,
-Rebasing a branch, 
-Advantages and Disadvantages of Rebasing
+    1. What is rebasing and how is it different from merging?,
+    1. Rebasing a branch, 
+    1. Advantages and Disadvantages of Rebasing
 10. Stashing
 11. Advanced tools
-Cleaning the working repository, 
-Changing commit messages and content., 
-Checking past commits, 
-Git reset, 
-Reverting commits, 
-Deleting commits from github, 
-CherryPicking commits.
+    1. Cleaning the working repository, 
+    1. Changing commit messages and content., 
+    1. Checking past commits, 
+    1. Git reset, 
+    1. Reverting commits, 
+    1. Deleting commits from github, 
+    1. CherryPicking commits.
 
