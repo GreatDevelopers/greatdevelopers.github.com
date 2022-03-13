@@ -73,3 +73,27 @@ git stash command is used when we had added a file but hadn’t commit it then w
 
 **Q4. How to change the message if we had written wrong message accidently?**
 
+unanswerd
+
+### Command examples
+
+```bash
+git clone https://github.com/frappe/bench /home/sdc/.bench --depth 1 --branch master
+bench init /home/sdc/frappe-bench --frappe-path https://github.com/frappe/frappe --frappe-branch version-13 --python python3
+bench get-app ERPNext https://github.com/frappe/erpnext --branch version-13
+bench get-app https://github.com/Software-Developemnt-Centre/chat --branch main
+bench get-app https://github.com/GreatDevelopers/Notice-gneEdu --branch master
+git status
+cat .git/config 
+git fetch
+git branch
+git status
+git pull
+joe .git/config 
+git add erpnext/education/web_form/student_applicant/student_applicant.json 
+git status
+git commit -m "Student enabled to apply for admission without login"
+git push
+git config --global --edit
+git commit --amend --reset-author
+```
